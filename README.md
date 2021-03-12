@@ -35,7 +35,7 @@ The URL to a custom graph profile can be passed via the `OSRM_GRAPH_PROFILE_URL`
 ```bash
 docker run -d -p 5000:5000 \
 -e OSRM_PBF_URL='http://download.geofabrik.de/asia/maldives-latest.osm.pbf' \
--e OSRM_GRAPH_PROFILE_URL='https://raw.githubusercontent.com/peter-evans/osrm-backend-docker/master/tests/car.lua' \
+-e OSRM_GRAPH_PROFILE_URL='https://raw.githubusercontent.com/DigitalBoxMobile/osrm-backend-docker/master/profiles/car.lua' \
 --name osrm-backend peterevans/osrm-backend:latest
 ```
 
